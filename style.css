@@ -1,0 +1,72 @@
+/* Element Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+  /* ID Selector */
+#main-header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    border-bottom: 5px solid #357ab8;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #06cc27;
+}
+
+/* Class Selector */
+.content {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(59, 0, 155);
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Style my image */
+.styled-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+}
+
+/* List styling */
+.favorites-list {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.favorites-list li {
+    color: #357ab8;
+}
+
+  /* Button styling */
+.action-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
